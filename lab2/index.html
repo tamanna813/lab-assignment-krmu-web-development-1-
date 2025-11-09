@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>My Portfolio</h2>
+      <nav
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="IMG_0442.heic" alt="My photo" class="profile-img" />
+        <p>
+          Hi,I'm Tamanna, A Computer Science student learning web
+          development.
+        </p>
+      </section>
+      <hr />
+
+      <section id="skills">
+        <h2>My Skills</h2>
+        <table>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+          <tr><td>HTML</td><td>Expert</td></tr>
+          <tr><td>CSS</td><td>Beginner</td></tr>
+          <tr><td>Git & GitHub</td><td>Learning</td></tr>
+          <tr><td>JavaScript</td><td>Learning</td></tr>
+          
+        </table>
+      </section>
+      <hr />
+
+      <section id="projects">
+        <h3>My Projects</h3>
+        <div class="project-card">
+          <h3>Project 1: My Portfolio Page</h3>
+          <p>
+    
+            A responsive portfolio page built using HTML and styled with CSS.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Project 2: Simple calorimeter</h3>
+          <p>A basic interactive calorimeter using Python.</p>
+        </div>
+      </section>
+      <hr />
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <table>
+            <tbody>
+              <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" placeholder="Enter your name" /></td>
+              </tr>
+              <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" placeholder="Enter your email" /></td>
+              </tr>
+              
+                
+              <tr>
+                <td><label for="message">Message</label></td>
+                <td><textarea id="message" placeholder="Enter your message"></textarea></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="button-cell">
+                  <button type="submit" id="button">Send</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </section>
+
+      <a href="#top" class="top-button">↑ Back to Top</a>
+    </main>
+
+    <footer>
+      <p>&copy; All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
